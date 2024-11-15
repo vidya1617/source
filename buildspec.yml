@@ -16,4 +16,7 @@ phases:
 
 artifacts:
   files:
-    - '**/*'
+    - index.html
+    - appspec.yml
+    - Scripts/**        # Include all files in the scripts folder
+    - dist/**           # Include your build output directory (if applicable)
